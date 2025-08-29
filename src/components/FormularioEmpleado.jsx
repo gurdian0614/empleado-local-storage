@@ -13,6 +13,12 @@ const FormularioEmpleado = () => {
 
                 <input type="text" placeholder="Departamento" className="p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-400" />
             </div>
+
+            <div className="mt-4 flex space-x-3">
+                <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300">Agregar/Editar</button>
+
+                <button className="bg-gray-500 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded transition duration-300" >Cancelar</button>
+            </div>
         </div>
     )
 }
